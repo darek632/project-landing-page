@@ -10,17 +10,23 @@ body {
     display:flex;
     flex-direction: column;
     flex:1;
+    /* background-color: #1F2937;*/
+    padding: 0 200px;
+
     }
 
 .header {
     border: 1px solid orange;
     display: flex;
     justify-content: space-between;
+    height: 2rem;
+    height: 60px;
         }   
 
 .left-side, .right-side {
     border:1px solid red;
 display: flex;
+align-items: center;
 }
 
 ul { display:flex;
@@ -30,4 +36,32 @@ padding: 0px;
 gap: 16px;
 }
 
+.media {
+    border: 1px dotted red;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    max-width: 100%;
+
+}
+.media-content { 
+    flex:1;
+}
+.hero-image {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.S1-main {
+    border: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 { font-size: 48px;
+    font-weight: extra-bold; 
+}
+li, p { font-size: 18px;}
 
