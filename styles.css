@@ -206,7 +206,8 @@ padding: 40px 100px;
 justify-content: space-between;
 gap:40px;
 flex: 1;
-background: #3882F6;;
+background: #3882F6;
+border-radius: 8px;
  }
 
 
