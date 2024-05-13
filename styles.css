@@ -44,11 +44,15 @@ body {
         display: flex;
         align-items: flex-start;
         flex: 1;
+    
        /* max-height:75%; */
+       max-height:300px;
+       
     
     }
     .media-content { 
         flex:1;
+        
     }
     .hero-image {
         max-width: 500px;
@@ -61,6 +65,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 100%;
+        padding: 40px 0px;
     }
     
     h1 { font-size: 48px;
@@ -109,9 +114,10 @@ body {
         flex: 1;
     
         /* border: 1px solid black; */
-        gap: 30px;
+        gap: 40px;
         align-items: center;
         justify-content: center;
+        padding: 40px 0px;
     }
     
     .card {
@@ -147,7 +153,9 @@ body {
     }
 
     .S3-content { /* border: 1px dotted red; */
-    max-width:75%;}
+    max-width:75%;
+padding: 40px 0px;
+}
 
     .signature {
       /* 1px dotted blue; */
@@ -163,4 +171,71 @@ body {
         font-size: 36px;
         color: #1F2937;
     }
+
+
+.S4 {
+flex:1;
+    display:flex;
+flex-direction: column;
+/* border: 1px dotted red; */
+
+}
+.S4-main {
+    /* border: 1px solid blue; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 40px 200px;
+}
+
+.footer {
+    /* border: 1px solid black; */
+display:flex;
+justify-content: center;
+align-items: center;
+height: 54px;
+background: #1F2937;
+color: #f9faf8; }
+
+.S4-main {flex:1;}
+
+.modal { 
+    /* border: 1px solid black; */
+display: flex;
+padding: 40px 100px;
+justify-content: space-between;
+gap:40px;
+flex: 1;
+background: #3882F6;;
+ }
+
+
+
+ .button { 
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-width: 3px;
+    border-style: solid;
+    background: #3882F6;
+    padding: 8px 36px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 400;
+ }
+
+
+.CTA { font-size: 24px;
+font-weight: 700;
+}
+.CTA2 { 
+    font-size: 16px;
+
+}
+
+.CTA, .CTA2 { 
+   color: #f9faf8;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 
